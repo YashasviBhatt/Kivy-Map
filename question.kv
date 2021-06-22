@@ -1,0 +1,17 @@
+#:import MapView kivy_garden.mapview.MapView
+
+ScreenManager:
+    Map:
+
+<Map>:
+    name: 'MapScreen'
+    MapView:
+        lat: 26.862471
+        lon: 75.762413
+        zoom: 15
+        double_tap_zoom: True
+        MapMarkerPopup:
+            source: './marker.png'
+            size: '80dp', '80dp'
+            lat: 26.862471
+            lon: 75.762413
